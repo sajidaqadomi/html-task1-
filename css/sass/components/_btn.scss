@@ -1,0 +1,13 @@
+.btn{
+    padding: 1em 1.5en;
+    background-color: $redColor1;
+    background-color: rgba($redColor1, .8);
+    color: white;
+    font-weight: 550;
+    transition: all .3s;
+    &:hover{
+        background-color: rgba($redColor1, 1);
+        color:whitesmoke;
+
+    }
+}

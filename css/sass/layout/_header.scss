@@ -1,0 +1,43 @@
+header{
+    padding: 1.5em 0;
+    z-index: 999;
+    box-shadow: 0 2px 5px 0 rgba(#000000 ,  .15);
+    
+    
+    
+    .logo{
+            width: 60%;
+            float:left;
+        }
+    .nav{
+            width: 40%;
+            float: left;
+            margin-right: auto;
+            
+            ul{
+                list-style-type: none;
+                text-align: right;
+                margin: 0 !important;
+                
+                li{
+                    display: inline-block;
+                   
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        padding-left:1.5em;
+                        color:$greenColor;
+                        font-weight: 500;
+                        transition: all .3s;
+                        &:hover{
+                            color:$redColor2;
+                        }
+                        
+                    }
+                }
+                
+            }
+    }
+    
+    
+}

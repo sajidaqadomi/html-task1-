@@ -1,0 +1,18 @@
+.services{
+    .services-title{
+        text-transform: capitalize;
+        font-weight: 600;
+        margin-bottom: 1.5em;
+
+    }
+    .services-item{
+        text-align: center;
+        padding: 3em 0; 
+        .icon{
+            color: $redColor2;
+            
+        }
+    }
+    
+    
+}

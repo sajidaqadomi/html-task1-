@@ -1,0 +1,16 @@
+.about{
+    
+    background-image: url(../../../imgs/pexels-photo-459654.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .about-dsc{
+        width:50%;
+        .title{
+            font-weight: 750;
+            text-transform: capitalize;
+            font-size: 3.5em;
+
+        }
+    }
+}

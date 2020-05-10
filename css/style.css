@@ -1,0 +1,137 @@
+.clear {
+  clear: both;
+}
+
+.btn {
+  padding: 1em 1.5en;
+  background-color: #B71C1C;
+  background-color: rgba(183, 28, 28, 0.8);
+  color: white;
+  font-weight: 550;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background-color: #b71c1c;
+  color: whitesmoke;
+}
+
+.dividor {
+  width: 90%;
+  margin: auto;
+  height: .1em;
+  background-color: #EF5350;
+  margin-top: 1.5em;
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+header {
+  padding: 1.5em 0;
+  z-index: 999;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+header .logo {
+  width: 60%;
+  float: left;
+}
+
+header .nav {
+  width: 40%;
+  float: left;
+  margin-right: auto;
+}
+
+header .nav ul {
+  list-style-type: none;
+  text-align: right;
+  margin: 0 !important;
+}
+
+header .nav ul li {
+  display: inline-block;
+}
+
+header .nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding-left: 1.5em;
+  color: #16a085;
+  font-weight: 500;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+header .nav ul li a:hover {
+  color: #EF5350;
+}
+
+section {
+  padding: 4em 0;
+}
+
+.sec-committ {
+  color: #EF5350;
+  display: block;
+  position: relative;
+  padding-left: 2.4em;
+  margin-bottom: 1.2em;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.sec-committ:after {
+  content: '';
+  display: block;
+  width: 2em;
+  height: .1em;
+  background-color: #EF5350;
+  color: #EF5350;
+  position: absolute;
+  right: 97%;
+  top: 50%;
+}
+
+.about {
+  background-image: url(../../../imgs/pexels-photo-459654.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about .about-dsc {
+  width: 50%;
+}
+
+.about .about-dsc .title {
+  font-weight: 750;
+  text-transform: capitalize;
+  font-size: 3.5em;
+}
+
+.services .services-title {
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 1.5em;
+}
+
+.services .services-item {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.services .services-item .icon {
+  color: #EF5350;
+}
+/*# sourceMappingURL=style.css.map */
