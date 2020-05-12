@@ -1,11 +1,23 @@
 .about{
     
-    background-image: url(../../../imgs/background.jpeg);
+    background-image: url(../../../imgs/pexels-photo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    .overlay{
+        position: absolute;
+        background-color: rgba( $greenColor,  .3);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
     .about-dsc{
         width:50%;
+        z-index: 2;
+        position: relative;
         .title{
             font-weight: 750;
             text-transform: capitalize;

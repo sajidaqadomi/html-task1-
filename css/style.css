@@ -89,6 +89,7 @@ section {
   margin-bottom: 1.2em;
   font-size: 20px;
   text-transform: uppercase;
+  z-index: 2;
 }
 
 .sec-committ:after {
@@ -104,14 +105,27 @@ section {
 }
 
 .about {
-  background-image: url(../../../imgs/background.jpeg);
+  background-image: url(../../../imgs/pexels-photo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+}
+
+.about .overlay {
+  position: absolute;
+  background-color: rgba(22, 160, 133, 0.3);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
 }
 
 .about .about-dsc {
   width: 50%;
+  z-index: 2;
+  position: relative;
 }
 
 .about .about-dsc .title {
